@@ -11,39 +11,39 @@
 window.SITE = {
 
   /* ---- who you are ------------------------------------------------------- */
-  name: "Jessyka Bailey",
+  name: "Test",
   // Short description used in the browser tab + link previews:
-  tagline: "Tech sales, building with AI.",
+  tagline: "Hello, World this is a test.",
   // Your photo. Drop an image in /assets and point to it, e.g. "assets/you.jpg".
   photo: "assets/portrait.svg",
-  photoAlt: "Jessyka Bailey",
+  photoAlt: "Test",
 
   /* ---- the Style Kit, as code -------------------------------------------
      Open style-kit.html to pick a look visually, then set it here. Every option
      below maps 1:1 to the Style Kit. Named values (or a "#hex") both work. */
   theme: {
     // Backgrounds — white | black | beige | rose  (or a #hex)
-    pageBg:     "beige",   // page (header + inner pages)
-    writingBg:  "beige",   // the Writing section
-    projectsBg: "black",   // the Projects section
-    footerBg:   "beige",   // the footer
+    pageBg:     "white",   // page (header + inner pages)
+    writingBg:  "white",   // the Writing section
+    projectsBg: "white",   // the Projects section
+    footerBg:   "white",   // the footer
 
     // Accents — lime | rose | purple | orange | black  (or a #hex)
-    writingAccent:  "lime",   // pill hover color
-    projectsAccent: "lime",   // the filled "live" project card
+    writingAccent:  "orange",   // pill hover color
+    projectsAccent: "orange",   // the filled "live" project card
 
     // Typography — sans (Geist) | serif (Lora) | rounded (Nunito)
     font: "sans",
 
     // Lines — "line" or "none"
-    headerBorder:    "line",
+    headerBorder:    "none",
     sectionDividers: "none",
-    footerBorder:    "none",
+    footerBorder:    "line",
 
     // Effects
-    cardShadow: "hard",    // none | soft | hard   (writing pills)
+    cardShadow: "soft",    // none | soft | hard   (writing pills)
     photoStyle: "border",  // none | border | shadow
-    dissolve:   "off",     // on | off  (click-to-dissolve on project cards)
+    dissolve:   "on",      // on | off  (click-to-dissolve on project cards)
   },
 
   /* ---- footer / social links (optional) ---------------------------------- */
